@@ -1,0 +1,37 @@
+.calculator{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#result{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 12px;
+}
+.buttons button{
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+#equal{
+    background-color: rgba(237, 172, 53, 0.961);
+    color: white;
+    width:100px;
+    height: 48px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#zero{
+    background-color: grey;
+    color: white;
+    width: 100px;
+}
+.xyz,#zero{
+    background-color: rgb(118, 108, 127);
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
